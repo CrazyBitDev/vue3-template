@@ -21,12 +21,10 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "5.0.4",
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-standard": "^5.1.2",
-    "@vue/test-utils": "^2.0.0-0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-import": "^1.13.3",
     "eslint": "^6.7.2",
@@ -39,8 +37,7 @@
     "sass": "^1.37.0",
     "sass-loader": "^8.0.2",
     "svg-sprite-loader": "^6.0.11",
-    "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0"
+    "typescript": "~3.9.3"
   },
   "engines": {
     "npm": ">= 6.9.0"
