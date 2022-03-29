@@ -18,9 +18,3 @@ npm run serve
 npm run build
 
 ```
-
-## Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-For a detailed explanation on how things work, check out the [repository](https://github.com/scarsu/vue3-basic-template).

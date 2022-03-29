@@ -37,21 +37,7 @@ module.exports = {
     }
   },
 
-  /* chainWebpack (config) {
-    config.module.rule('svg')
-      .exclude.add(resolve('src/assets/svg'))
-      .end()
-
-    config.module.rule('svg-icon')
-      .test(/\.svg$/)
-      .include.add(resolve('src/assets/svg')).end()
-      .use('svg-sprite-loader')
-      .loader('svg-sprite-loader')
-      .options({
-        symbolId: 'icon-[name]'
-      })
-      .end()
-  }, */
+  chainWebpack (config) {},
   css: {
     // requireModuleExtension: true,
     extract: process.env.NODE_ENV === 'production',
