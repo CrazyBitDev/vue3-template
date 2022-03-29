@@ -14,7 +14,7 @@
     "vue-router": "^4.0.10",
     "vuex": "^4.0.2"
   },
-  "repository": "https://github.com/scarsu/vue3-basic-template",
+  "repository": "https://github.com/CrazyBitDev/vue3-boilerplate",
   "license": "MIT",
   "devDependencies": {
     "@babel/eslint-parser": "^7.5.4",
