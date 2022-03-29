@@ -4,7 +4,6 @@
 * Vue Router
 * Vuex
 * scss
-* typescript
 
 ## Build Setup
 
