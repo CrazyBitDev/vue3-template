@@ -15,10 +15,15 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'comma-dangle': ['off'],
-    'vue/multi-word-component-names': 'off',
     'spaced-comment': 'off',
+    'quote-props': 'off',
+    'no-trailing-spaces': 'off',
+    'no-unused-vars': 'warn',
+    'eol-last': 'off',
     semi: 'off',
-    quotes: 'off'
+    quotes: 'off',
+    'vue/multi-word-component-names': 'off',
+    'vue/no-mutating-props': 'off',
   },
   overrides: [
     {
