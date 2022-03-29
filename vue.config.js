@@ -53,7 +53,7 @@ module.exports = {
       .end()
   },
   css: {
-    requireModuleExtension: true,
+    // requireModuleExtension: true,
     extract: process.env.NODE_ENV === 'production',
     sourceMap: process.env.NODE_ENV !== 'production',
     loaderOptions: {
@@ -65,14 +65,14 @@ module.exports = {
   devServer: {
     host: 'localhost',
     port: 8080,
-    disableHostCheck: true,
-    proxy: {
+    // disableHostCheck: true,
+    /* proxy: {
       [process.env.BASE_API]: {
         target: 'http://some_server_host.com',
         pathRewrite: { '^/api': '' },
         changeOrigin: true
       }
-    },
+    }, */
     compress: true,
     open: true
   }
