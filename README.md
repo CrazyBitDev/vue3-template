@@ -1,4 +1,10 @@
-# {{ name }}
+# VUE 3 BOILERPLATE
+
+* Vue 3
+* Vue Router
+* Vuex
+* scss
+* typescript
 
 ## Build Setup
 
@@ -12,8 +18,6 @@ npm run serve
 # build for production with minification
 npm run build
 
-# run unit tests
-npm run test:unit
 ```
 
 ## Customize configuration
