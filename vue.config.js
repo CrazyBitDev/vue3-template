@@ -37,7 +37,7 @@ module.exports = {
     }
   },
 
-  chainWebpack (config) {
+  /* chainWebpack (config) {
     config.module.rule('svg')
       .exclude.add(resolve('src/assets/svg'))
       .end()
@@ -51,7 +51,7 @@ module.exports = {
         symbolId: 'icon-[name]'
       })
       .end()
-  },
+  }, */
   css: {
     // requireModuleExtension: true,
     extract: process.env.NODE_ENV === 'production',
